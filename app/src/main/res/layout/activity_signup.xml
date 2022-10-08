@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySignup">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signin"
+        android:id="@+id/imgwelcome"
+        />
+
+
+    <EditText
+        android:id="@+id/signup_Edittext_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgwelcome"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Full Name" />
+
+    <EditText
+        android:id="@+id/signup_Edittext_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_Edittext_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter Email" />
+
+    <EditText
+        android:id="@+id/signup_Edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_Edittext_email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/signup_Edittext_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_Edittext_password"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/signup_Edittext_storename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_Edittext_confirmpassword"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter your Store Name"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/signup_Button_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signup_Edittext_storename"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_shape_capsule"
+        android:padding="8dp"
+        android:text="Sign Up"
+        android:textColor="@color/white" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_Progressbar_pbar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+</RelativeLayout>

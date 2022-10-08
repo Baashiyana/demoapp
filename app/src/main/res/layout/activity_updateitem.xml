@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".updateitem">
+
+        <ImageView
+            android:id="@+id/imgwelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/appadditemback">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="90dp"
+            android:src="@drawable/whitelogo" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BillDesk"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="160dp"/>
+
+    <TextView
+        android:id="@+id/txtnewitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgwelcome"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginBottom="15sp"
+        android:gravity="center"
+        android:text=" Update Item"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editemnm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtnewitem"
+        android:layout_marginStart="15sp"
+        android:layout_marginEnd="15sp"
+        android:hint="Enter Item Name"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edcat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editemnm"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:hint="Category"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerGenres"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:layout_marginBottom="15sp"
+        android:hint="Enter price"
+        android:minHeight="48dp" />
+
+    <Spinner
+        android:id="@+id/spinnerGenres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edcat"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="15sp"
+        android:entries="@array/itemunit"
+        android:minHeight="48dp">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/itemupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edprice"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn_shape_capsule"
+        android:padding="8dp"
+        android:text="Update Item"
+        android:textColor="@color/white" />
+
+
+    </RelativeLayout>

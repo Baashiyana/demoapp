@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/drawable/gradient_addeditem.xml" value="0.1645" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_added_item_list.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_additem.xml" value="0.264" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_addtocart.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_createinvoice.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_detailed.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_home.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_iteminvoice.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_otpverfication.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_otpverification.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_otpverification_page2.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_otpverificatopn.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_search.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_signin.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_signup.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_updateitem.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/activity_welcome.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/order_item.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/aashi/Downloads/demoapp4/demoapp4/app/src/main/res/layout/updateitem.xml" value="0.2734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
